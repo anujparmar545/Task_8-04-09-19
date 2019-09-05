@@ -19,7 +19,7 @@ public class Connect {           //Singleton Class
 			}
 		 }
 		 catch (Exception e) {
-			// TODO: handle exception
+			
 			 e.printStackTrace();
 		}
 			

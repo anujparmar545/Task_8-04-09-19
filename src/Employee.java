@@ -22,6 +22,7 @@ public class Employee{
 	public int getEno() {
 		return eno;
 	}
+	
 	public void setEno(int eno) {
 		this.eno = eno;
 	}

@@ -96,7 +96,7 @@ public class Main {
 
 
 	private static void sort() throws SQLException {
-		// TODO Auto-generated method stub
+		
 		
 		
 		System.out.println("Enter Sorting Basis : eno or ename or salary or designation or dept");
