@@ -9,6 +9,7 @@ public class Connect {           //Singleton Class
 	 public static Connection getConn() 
 	 {
 			
+		 
 		 try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			String url="jdbc:oracle:thin:@localhost:1521:XE";

@@ -91,6 +91,7 @@ public class Main {
 		double salary=cst.getDouble(1);
 		
 		System.out.println("Salary of Employee "+eno+" is: "+salary);
+		con.close();
 		}
 
 
@@ -121,6 +122,7 @@ public class Main {
 		}
 		
 		viewEmployees();
+		con.close();
 	}
 
 
@@ -149,6 +151,7 @@ public class Main {
 		
 	
 		System.out.println();
+		con.close();
 	}
 
 
@@ -176,6 +179,8 @@ public class Main {
 		}
 
 		System.out.println();
+		
+		con.close();
 		}
 		
 	
@@ -198,6 +203,8 @@ public class Main {
 		
 		System.out.println("Salary Updated for employee no: "+eid);
 		System.out.println();
+		
+		con.close();
 	}
 
 
@@ -210,7 +217,8 @@ public class Main {
 		pst.execute();
 		viewEmployees();
 		System.out.println("All Employees Deleted");
-		
+	
+		con.close();
 	}
 
 
@@ -227,6 +235,8 @@ public class Main {
 		pst.executeUpdate();
 		viewEmployees();
 		System.out.println();
+		
+		con.close();
 		
 	}
 
@@ -271,6 +281,8 @@ public class Main {
 		cst.execute();
 		System.out.println("Employee Added Successfully");
 		System.out.println();
+		
+		con.close();
 	
 	}
 	
@@ -291,6 +303,7 @@ public class Main {
 			}
 			
 		}
+		con.close();
 		System.out.println();
 		
 	}

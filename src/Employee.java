@@ -12,6 +12,7 @@ public class Employee{
 	
 	public Employee(int eno, String ename, double salary, String designation, String dept) {
 		super();
+		
 		this.eno = eno;
 		this.ename = ename;
 		this.salary = salary;
