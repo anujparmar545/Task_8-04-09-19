@@ -6,7 +6,8 @@ public class Connect {           //Singleton Class
 	private static Connection con;       
 	
 	
-	 public static Connection getConn() {
+	 public static Connection getConn() 
+	 {
 			
 		 try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
